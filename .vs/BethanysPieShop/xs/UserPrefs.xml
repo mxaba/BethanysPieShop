@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{F293E274-388F-4617-859C-B0B9D2B26EC2}|Default">
+  <MonoDevelop.Ide.ItemProperties.BethanysPieShop PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/PieRepository.cs">
+    <Files>
+      <File FileName="Controllers/PieController.cs" Line="38" Column="33" />
+      <File FileName="Views/Pie/List.cshtml" />
+      <File FileName="Startup.cs" />
+      <File FileName="ViewModels/PieListViewModel.cs" />
+      <File FileName="Views/Shared/_Layout.cshtml" />
+      <File FileName="Views/_ViewStart.cshtml" />
+      <File FileName="Program.cs" Line="15" Column="10" />
+      <File FileName="Views/_ViewImports.cshtml" />
+      <File FileName="../../../.nuget/packages/twitter.bootstrap/3.0.1.1/readme.txt" />
+      <File FileName="Models/AppDbContext.cs" />
+      <File FileName="appsettings.json" />
+      <File FileName="Models/Category.cs" />
+      <File FileName="Models/ICategoryRepository.cs" />
+      <File FileName="Models/MockCategoryRepository.cs" />
+      <File FileName="Models/MockPieRepository.cs" />
+      <File FileName="Models/Pie.cs" />
+      <File FileName="appsettings.Development.json" />
+      <File FileName="Models/IPieRepository.cs" />
+      <File FileName="Models/PieRepository.cs" Line="24" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BethanysPieShop" expanded="True">
+            <Node name="BethanysPieShop" expanded="True">
+              <Node name="Dependencies" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
