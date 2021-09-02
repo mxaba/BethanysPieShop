@@ -89,16 +89,12 @@ namespace BethanysPieShop.Models
         {
             return ShoppingCartItems ??
                    (ShoppingCartItems =
-                       _appDbContext.ShoppingCartItems.Where(c => c.ShoppingCartId == ShoppingCartId)
-                           .Include(s => s.Pie)
-                           .ToList());
+                       _appDbContext.ShoppingCartItems.Where(c => c.ShoppingCartId == ShoppingCartId).Include(s => s.Pie).ToList());
         }
 
         public void ClearCart()
         {
-            var cartItems = _appDbContext
-                .ShoppingCartItems
-                .Where(cart => cart.ShoppingCartId == ShoppingCartId);
+            var cartItems = _appDbContext.ShoppingCartItems.Where(cart => cart.ShoppingCartId == ShoppingCartId);
 
             _appDbContext.ShoppingCartItems.RemoveRange(cartItems);
 
