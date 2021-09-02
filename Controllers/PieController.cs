@@ -29,17 +29,11 @@ namespace BethanysPieShop.Controllers
             return View(pieListViewModel);
         }
 
-        // // GET: /<controller>/
-        // public IActionResult List()
-        // {
-        //     //ViewBag.CurrentCategory = "Cheese cakes";
-
-        //     //return View(_pieRepository.AllPies);
-        //     PiesListViewModel piesListViewModel = new PiesListViewModel();
-        //     piesListViewModel.Pies = _pieRepository.AllPies;
-
-        //     piesListViewModel.CurrentCategory = "Cheese cakes";
-        //     return View(piesListViewModel);
-        // }
+        public IActionResult Details(int id){
+            var pie = _pieRepository.GetPieById(id);
+            if (pie == null)
+                return NotFound();
+            return View(pie);
+        }
     }
 }
